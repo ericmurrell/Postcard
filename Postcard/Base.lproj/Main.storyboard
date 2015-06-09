@@ -67,6 +67,15 @@
                                     <rect key="frame" x="16" y="78" width="316" height="81"/>
                                 </variation>
                             </label>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RVw-6r-MOW">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="23" y="188" width="204" height="21"/>
+                                </variation>
+                            </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AlbertEinsteinStamp.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="nsK-Xy-WnL">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
@@ -108,6 +117,7 @@
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="voO-DE-dYp"/>
+                                <exclude reference="RVw-6r-MOW"/>
                                 <exclude reference="nsK-Xy-WnL"/>
                                 <exclude reference="NXX-3q-nww"/>
                                 <exclude reference="4j1-yv-h48"/>
@@ -117,6 +127,7 @@
                         <variation key="widthClass=compact">
                             <mask key="subviews">
                                 <include reference="voO-DE-dYp"/>
+                                <include reference="RVw-6r-MOW"/>
                                 <include reference="nsK-Xy-WnL"/>
                                 <include reference="NXX-3q-nww"/>
                                 <include reference="4j1-yv-h48"/>
@@ -129,6 +140,7 @@
                         <outlet property="enterNameTextField" destination="NXX-3q-nww" id="ILz-GO-dtL"/>
                         <outlet property="mailButton" destination="3cG-gD-xlD" id="snx-Jb-tSJ"/>
                         <outlet property="messageLabel" destination="voO-DE-dYp" id="vPt-C5-f0h"/>
+                        <outlet property="nameLabel" destination="RVw-6r-MOW" id="qiZ-Cb-n7n"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
